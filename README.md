@@ -1,3 +1,4 @@
+
 # Dokumentation - Det inteligente hus
 Programmet er lavet til at køre på en: **Arduino MEGA2560**
 ## General beskrivelse af projekt
@@ -20,7 +21,7 @@ Jeg har brugt følgende:
 - 2 lys dioder (1 rød og 1 grøn)
 
 #### Context Diagram:
-![sadsd](https://github.com/nitram1337/IntelligentHouse/blob/master/images/context.png?raw=true)
+![Context](https://github.com/nitram1337/IntelligentHouse/blob/master/images/context.png?raw=true)
 ## Timers brugt
 - **Timer0**
 *Opsætning:*
@@ -73,4 +74,25 @@ Ikke alle funktioner er beskrevet, kun dem som kræver beskrivelse ellers så er
 - ***INIT_SERVO()***
 - ***CloseLock()*** bliver brugt til at dreje servo motoren og derved simulere at en lås bliver låst
 - ***OpenLock()*** bliver brugt til at dreje servo motoren og derved simulere at en lås bliver åbnet
+
+## Hippo
+![Hippo](https://github.com/nitram1337/IntelligentHouse/blob/master/images/hippo.png?raw=true)
+
+## Flowchart af menu
+![menu](https://github.com/nitram1337/IntelligentHouse/blob/master/images/menu.png?raw=true)
+
+## Flowchart af keypad
+![keypadflowchart](https://github.com/nitram1337/IntelligentHouse/blob/master/images/FlowChart.png?raw=true)
+
+## Logic analyser af keypad
+![keypadlogic](https://github.com/nitram1337/IntelligentHouse/blob/master/images/OutputLogicTest.png?raw=true)
+
+## Port tabel af keypad
+![Porttabel](https://github.com/nitram1337/IntelligentHouse/blob/master/images/porttabel.png?raw=true)
+
+![Porttegning](https://github.com/nitram1337/IntelligentHouse/blob/master/images/PortTegning.png?raw=true)
+
+## Perifære enheder på portene
+![Tilsluttet porte](https://github.com/nitram1337/IntelligentHouse/blob/master/images/tilsluttetporte.png?raw=true)
+
 #### Lavet af Martin Sonne
