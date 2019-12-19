@@ -1,7 +1,13 @@
 # Dokumentation - Det inteligente hus
 Programmet er lavet til at køre på en: **Arduino MEGA2560**
 ## General beskrivelse af projekt
-
+Projektet skal forestille, at være et intelligent hus.
+Jeg har gået udfra følgende:
+- Man kan logge ind på LCD displayet, med en 4-cifret kode. Hvis koden er rigtigt, så kører en servo motor og simulere, at der er låst op. Samtidig så slukker en rød lys diode og en grøn tænder. Efter det så kommer det frem, at man kan vælge at se temperaturen.
+- Man kan logge ud og servo motoren vil så kører den anden vej, for at simulere at der nu er låst og den røde lys diode vil tænde og den grønne vil slukke.
+- Der er brugt keypad til at styre menuen/login, som er visualiseret på et LCD display.
+- Der er en DC motor, som er tænkt til, at skulle være til at nedkøle et rum. Motoren bliver aktiveret hvis temperaturen er over 30 grader celsius, som bliver målt ved hjælp af en NTC thermistor.
+- RGB LED'en vil lyse rød, når DC motoren er slukket og vil skifte til grøn, når DC motoren er tændt
 ## Perifære enheder
 Jeg har brugt følgende:
 - LCD Display
