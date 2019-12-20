@@ -21,7 +21,7 @@ Jeg har brugt følgende:
 - 2 lys dioder (1 rød og 1 grøn)
 
 #### Context Diagram:
-![Context](https://github.com/nitram1337/IntelligentHouse/blob/master/images/context.png?raw=true)
+![Context](https://github.com/nitram1337/IntelligentHouse/blob/master/images/contextNyeste.png?raw=true)
 ## Timers brugt
 - **Timer0**
 *Opsætning:*
